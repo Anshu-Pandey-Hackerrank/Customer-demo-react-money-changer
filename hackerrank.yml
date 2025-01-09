@@ -12,6 +12,6 @@ configuration:
       - src/App.jsx
       - src/main.jsx
     project_menu:
-      run: npm dev
+      run: npm run dev
       install: npm install
       test: npm test
