@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --ci --reporters=default --reporters=jest-junit"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --ci --reporters=default --reporters=jest-junit",
+    "pretest": "npm install"
   },
   "dependencies": {
     "@jest/globals": "^29.7.0",
